@@ -122,7 +122,16 @@ main article .btn:hover {
 
 @media screen and (max-width: 1280px) {
     main {
-        width: 55vw;
+        width: 50vw;
+    }
+
+    main article h1 {
+        margin-bottom: 0;
+    }
+
+    main article p:nth-child(3) {
+        font-size: 1.1em;
+        margin-top: 1em;
     }
 }
 
